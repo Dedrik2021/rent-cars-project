@@ -1,0 +1,33 @@
+1.v papke projektov sozdajom papku, brosaem ee v vscode
+
+2.sozdaom v proekte papku (.venv)
+
+3.v terminale instalirujem django   pipenv install (django==4.0.8)
+
+4.v terminale propisivajem zapusk virtualnoj sredy   (pipenv shell)
+
+5.v terminale propisivajem (django-admin startproject carzone . ) - to4ka ozna4aet sozdanije (nastrojek) projektov v nutri osnovnoj papki
+
+6.v terminale propisivajem (python manage.py runserver) - zapuskajem web server http://127.0.0.1:8000/
+
+7.vibirajem put k (interpritatoru python) - sprava vnizu sinij footer nazimajem na (3.11.1('.venv': pipenv)) i vibirajem (Python 3.11.1('.venv': pipenv)) ili
+esli vscode vybral globalnij interpritator nuzno propisat put vru4nuju, otkrivajem novij terminal, v nem pishem (pipenv --venv) - eta komanda dast polnij put
+k vertualnoj srede dlja tekushego proekta, naprimer (C:/Users/OLEGVIOLA/Desktop/trening-projects/Python/django-first-project/.venv)
+snova nazimajem na fotere sprava (3.11.1('.venv': pipenv)) i vibirajem (Enter interpreter path...), vstavljajem polu4enij put i dopisivajem vkonce stroki (/Scripts/python)
+(C:/Users/OLEGVIOLA/Desktop/trening-projects/Python/django-first-project/.venv/Scripts/python) i enter.
+
+8.v terminale instalirujem autopep8 (pip install --upgrade autopep8), proverjajem v komandoj (pip list) na nali4ije paketa
+
+9.esli peremennaja sostoit iz (ZAGLAVNICH BUKV) eto ozna4aet 4to peremennaja ne budet izmenjatsja na protjazenii vsego ziznenogo cykla
+
+10.esli prilozenije idet v product, v papke settings.py menjajem (DEBAG) s True na False
+
+11."sozdajom prelozenije pages" (python manage.py startapp pages) v terminale
+
+12.sozdajom funcciju home v papke (pages) v (views.py)
+
+13.v papke (pages) sozdajom file (urls.py)
+
+14.v papke (pages) v faile (urls.py) importirujem iz (views.py) funcciju (home) i sozdajom put
+
+15.v papke (carzone) v file (urls) importirujem (include) i podclju4aem vse puti iz papki (pages), faila (urls), teper globalno put podklju4on i pri pereklju4enii putej vse rabotajet
