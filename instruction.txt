@@ -31,3 +31,23 @@ snova nazimajem na fotere sprava (3.11.1('.venv': pipenv)) i vibirajem (Enter in
 14.v papke (pages) v faile (urls.py) importirujem iz (views.py) funcciju (home) i sozdajom put
 
 15.v papke (carzone) v file (urls) importirujem (include) i podclju4aem vse puti iz papki (pages), faila (urls), teper globalno put podklju4on i pri pereklju4enii putej vse rabotajet
+
+16.sozdajom shablony (html)
+
+17.v papke (carzone) sozdajom papku (static) i vbrasivajem v nee fily (css, fonts, img, js)
+
+18.v papke (carzone) podklju4aem papku (templates) ('DIRS': ['templates'],) i podklu4aem papku (STATIC) vnizu fila (settings.py)
+
+19.zapuskajem comandu (python manage.py collectstatic)
+
+20.kopirujem shablon html is (index.html) podklju4aem (load static) v shapke starnici (home.html) i menjajem puti (link) i kartinok, po nadobnasti 4istim chash v brauzere esli ne otobrazajutsja kartinki
+
+21.sozdajom (base.html) prenosim v nego shapku i skripty is (home.html), podklju4aem (home.html)
+
+22.sozdajom v (templates) papku (includes) v nej faily (footer.html, navbar.html, topbar.html) i razbivajem na faily (base.html)
+
+23.'sozdajom puti po siilkam v (navbare)'. prechodim v (pages) (urls.py) sozdajom puti (about, services, contact), v (pages) (views.py) sozdajom dlja etich putej funccii i sozdajom shabloni (html) dlja nich v papke (templates)
+
+24.'perenosim shablony v novije html fily', search layout perenosim v (base.html) pered (footer)
+
+25.
