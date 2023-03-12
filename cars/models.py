@@ -90,16 +90,16 @@ class Car(models.Model):
     )
 
     type_of_fuel = (
-        ('PT', 'Petrol'),
-        ('DT', 'Diesel'),
-        ('EL', 'Electro'),
-        ('GB', 'Gibrid')
+        ('Petrol', 'Petrol'),
+        ('Diesel', 'Diesel'),
+        ('Electro', 'Electro'),
+        ('Gibrid', 'Gibrid')
     )
 
     type_of_transsmissions = (
-        ('MN', 'Manual'),
-        ('AT', 'Automatic'),
-        ('CC', 'Cruise Control')
+        ('Manual', 'Manual'),
+        ('Automatic', 'Automatic'),
+        ('Cruise Control', 'Cruise Control')
     )
 
     car_title = models.CharField(max_length=255)
